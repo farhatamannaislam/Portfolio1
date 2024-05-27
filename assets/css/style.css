@@ -4,6 +4,13 @@
     box-sizing: 0;
 }
 
+/*General styles*/
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
 
 /*Header */
 header{
@@ -13,6 +20,8 @@ header{
 /*Main content*/
 main{
     background-color: beige;
+    /* Make main element to push footer down*/
+    flex: 1 0 auto;
 }
 
 /*Footer*/
