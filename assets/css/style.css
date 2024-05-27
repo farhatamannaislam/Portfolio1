@@ -16,6 +16,10 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
+h1{
+    font-family: 'Verdana', sans-serif;
+}
+
 /*Header */
 header{
     background-color: green;
