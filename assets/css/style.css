@@ -21,9 +21,9 @@ header{
     background-color: white;
     padding: 0 1rem;
     position: fixed;
-    z-index: 95;
+    z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 3px grey;
+    box-shadow: 0 1.5px 1.5px grey;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -63,7 +63,7 @@ nav{
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 3px 3px grey;  
+    box-shadow: 0 1.5px 1.5px grey;  
     display: none;
     top: 100%;
 }
@@ -90,6 +90,13 @@ main{
     margin-top: 40px;
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
+}
+
 /*Footer*/
 #social-networks {
     text-align: center;
@@ -100,8 +107,8 @@ main{
 }
 
 #social-networks i{
-    font-size: 150%;
-    padding: 0 35px;
+    font-size: 162%;
+    padding: 4.5%;
     color: darkslategray;
 }
 
@@ -128,13 +135,13 @@ main{
     }
 
     #logo {
-        font-size: 300%;
-        line-height: 80px;
+        font-size: 285%;
+        line-height: 78px;
         margin: 0 0.6rem;
     }
 
     main {
-        margin-top: 89px;
+        margin-top: 87px;
     }
 }
 
