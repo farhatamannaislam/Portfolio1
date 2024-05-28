@@ -23,7 +23,7 @@ header{
     position: fixed;
     z-index: 95;
     width: 100%;
-    box-shadow: 0 5px 5px brown;
+    box-shadow: 0 3px 3px grey;
 }
 
 h1{
