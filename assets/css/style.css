@@ -119,12 +119,6 @@ main {
     color: white;
 }
 
-#address-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /*Footer*/
 #social-networks {
     text-align: center;
@@ -183,5 +177,12 @@ main {
 @media screen and (min-width:992px) {
     #menu a:hover {
         border-bottom: 1.5px solid grey;
+    }
+}
+
+/*Small devices (mobiles) */
+@media screen and (min-width:390px) {
+    #address-text {
+        display: flex;
     }
 }
