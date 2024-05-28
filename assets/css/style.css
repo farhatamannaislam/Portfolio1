@@ -16,14 +16,21 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
+/*Header */
+header{
+    background-color: white;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 95;
+    width: 100%;
+    box-shadow: 0 5px 5px brown;
+}
+
 h1{
     font-family: 'Verdana', sans-serif;
 }
 
-/*Header */
-header{
-    background-color: green;
-}
+
 
 /*Main content*/
 main{
