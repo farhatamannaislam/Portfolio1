@@ -171,6 +171,13 @@ main {
         right: 50px;
         font-size: 150%;
     }
+
+    #address-text {
+        display: flex;
+        margin-bottom: 200px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
 }
 
 /*Large devices (laptops and desktops, 992px and up) */
@@ -178,11 +185,19 @@ main {
     #menu a:hover {
         border-bottom: 1.5px solid grey;
     }
+
+    #address-text {
+        display: flex;
+        margin-bottom: 200px;
+        margin-left: 100px;
+    }
 }
 
 /*Small devices (mobiles) */
-@media screen and (min-width:390px) {
+@media screen and (min-width:330px) {
     #address-text {
         display: flex;
+        margin-top: 200px;
+        margin-bottom: 50px;
     }
 }
