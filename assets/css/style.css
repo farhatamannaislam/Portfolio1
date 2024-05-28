@@ -38,7 +38,19 @@ h1{
     color: darkslategray;
 }
 
+#menu{
+    font-size: 115%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
 
+#menu > li{
+    margin-bottom: 1.5em;
+}
+
+.active {
+    border-bottom: 1.5px solid #3a3a3a;
+}
 
 /*Main content*/
 main{
