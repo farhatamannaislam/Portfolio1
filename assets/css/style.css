@@ -117,7 +117,12 @@ main{
     color: white;
 }
 
-
+#contact-information > h2 {
+    text-transform: none;
+    color: brown;
+    text-align: center;
+    padding: 100px 100px;
+}
 
 /*Footer*/
 #social-networks {
