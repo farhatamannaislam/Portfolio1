@@ -73,6 +73,15 @@ nav{
     display: block;
 }
 
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label{
+    font-size: 1.5rem;
+}
+
+
 /*Main content*/
 main{
     background-color: beige;
