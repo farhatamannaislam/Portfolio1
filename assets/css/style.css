@@ -87,10 +87,33 @@ main{
     background-color: beige;
     /* Make main element to push footer down*/
     flex: 1 0 auto;
-    margin-top: 75px;
+    margin-top: 40px;
 }
 
 /*Footer*/
 footer{
     background-color: brown;
+}
+
+/*Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px){
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width:fit-content;
+        padding-right: 1.5rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu >li{
+        padding-left: 1.5rem;
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
 }
