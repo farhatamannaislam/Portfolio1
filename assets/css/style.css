@@ -4,7 +4,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 /*General styles*/
@@ -24,6 +24,10 @@ header{
     z-index: 95;
     width: 100%;
     box-shadow: 0 3px 3px grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 
 header a{
@@ -61,6 +65,12 @@ nav{
     padding: 0 1rem;
     box-shadow: 0 3px 3px grey;  
     display: none;
+    top: 100%;
+}
+
+/*Nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 /*Main content*/
