@@ -121,7 +121,6 @@ main {
 #address-text {
     display: flex;
     color: darkslategray;
-
 }
 
 /*Footer*/
@@ -139,12 +138,6 @@ main {
     color: darkslategray;
 }
 
-/* Larger font size for desktop screens */
-@media (min-width: 1024px) {
-    #cover-text {
-      margin-top: 200px;
-    }
-  }
 
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -181,7 +174,7 @@ main {
     #cover-text {
         width: 300px;
         right: 50px;
-        font-size: 150%;
+        font-size: 120%;
     }
 
     #address-text {
