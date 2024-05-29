@@ -123,18 +123,14 @@ main {
     color: darkslategray;
 }
 
-.recipes {
-    text-align: center;
-}
-.recipes>h2{
+    .recipes>h2{
     color:brown;
-}
-
-.recipes>ul{
+    }
+    
+    .recipes>ul{
     color:darkslategray;
     line-height: 30px;
-}
-
+    }
 
 /*Footer*/
 #social-networks {
@@ -220,5 +216,17 @@ main {
 @media screen and (min-width:330px) {
     #address-text {
         margin-top: 200px;
+    }
+
+    .maindish-image{
+        width: 50%;
+    }
+
+    .dessert-image{
+        width: 50%;
+    }
+
+    .snack-image{
+        width: 50%;
     }
 }
