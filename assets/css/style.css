@@ -96,7 +96,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.jpg") no-repeat center center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
     background-size: cover;
 }
 
@@ -123,6 +123,57 @@ main {
     color: darkslategray;
 }
 
+
+.maindishimage {
+    float: right;
+    width: 30%;
+}
+
+.maindish>h2 {
+    color:brown;
+    margin-left: 10px;
+}
+
+.maindish>ul{
+    color:darkslategray;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.dessertimage {
+    float: right;
+    width:30%;
+}
+
+.dessert>h2 {
+    color:brown;
+    margin-left: 10px;
+}
+
+.dessert>ul {
+    color:darkslategray;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+
+.snackimage{
+    float: right;
+    width:30%;
+    margin-top: 10px;
+    margin-left: 900px;
+}
+
+.snacks>h2{
+    color:brown;
+    margin-left: 10px;
+}
+.snacks>ul {
+    color:darkslategray;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
 /*Footer*/
 #social-networks {
     text-align: center;
@@ -138,8 +189,19 @@ main {
     color: darkslategray;
 }
 
+/*Large devices (Laptops) */
+@media screen and (min-width:1024px) {
+    #recipes {
+        font-size: 150%;
+    }
 
-/*Media query: tablets and larger (768px and up) */
+    #cover-text {
+        font-size: 140%;
+    }
+}
+
+
+/*Media query: ipads/tablets */
 @media screen and (min-width: 768px) {
     nav {
         display: block;
@@ -174,7 +236,7 @@ main {
     #cover-text {
         width: 300px;
         right: 50px;
-        font-size: 120%;
+        font-size: 130%;
     }
 
     #address-text {
@@ -185,6 +247,7 @@ main {
     
     }
 }
+
 
 /*Small devices (mobiles) */
 @media screen and (min-width:330px) {
