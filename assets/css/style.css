@@ -86,7 +86,7 @@ nav {
 
 /*Main content*/
 main {
-    background-color: beige;
+    background-color: none;
     /* Make main element to push footer down*/
     flex: 1 0 auto;
     margin-top: 40px;
@@ -123,56 +123,18 @@ main {
     color: darkslategray;
 }
 
-
-.maindishimage {
-    float: right;
-    width: 30%;
+.recipes {
+    text-align: center;
 }
-
-.maindish>h2 {
+.recipes>h2{
     color:brown;
-    margin-left: 10px;
 }
 
-.maindish>ul{
+.recipes>ul{
     color:darkslategray;
     line-height: 30px;
-    margin-left: 10px;
 }
 
-.dessertimage {
-    float: right;
-    width:30%;
-}
-
-.dessert>h2 {
-    color:brown;
-    margin-left: 10px;
-}
-
-.dessert>ul {
-    color:darkslategray;
-    line-height: 30px;
-    margin-left: 10px;
-}
-
-
-.snackimage{
-    float: right;
-    width:30%;
-    margin-top: 10px;
-    margin-left: 900px;
-}
-
-.snacks>h2{
-    color:brown;
-    margin-left: 10px;
-}
-.snacks>ul {
-    color:darkslategray;
-    line-height: 30px;
-    margin-left: 10px;
-}
 
 /*Footer*/
 #social-networks {
@@ -181,6 +143,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: aliceblue;
 }
 
 #social-networks i {
@@ -253,5 +216,8 @@ main {
 @media screen and (min-width:330px) {
     #address-text {
         margin-top: 200px;
+    }
+    #classes{
+        width:510px;
     }
 }
