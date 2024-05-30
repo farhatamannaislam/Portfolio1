@@ -32,7 +32,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 0.5rem 0.5rem grey;
+    box-shadow: 0 0.125rem 0.125rem grey;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -103,12 +103,12 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-   background-color: rgba(241, 109, 107, .7);
-   font-size: 1.5rem;
-   position: absolute;
-   width: 80%;
-   padding-left: 10px;
-   padding-top: 10px;
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 1.5rem;
+    position: absolute;
+    width: 80%;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 #cover-text>p {
@@ -116,13 +116,14 @@ main {
 }
 
 #reasons {
-    background-color: rgba(235, 252, 247, 0.7);
+    background-color: rgba(233, 241, 239, 0.7);
     font-size: 1rem;
-    color:darkcyan;
+    color: darkcyan;
     line-height: 1.5rem;
     letter-spacing: 0.125rem;
     margin-left: 1rem;
     margin-top: 1rem;
+    text-shadow: 1px 1px 3px rgb(139, 184, 155);
 }
 
 #reasons>ul {
@@ -131,17 +132,22 @@ main {
 }
 
 #address-text {
-    color: rgb(46, 3, 6);
+    color: rgb(17, 71, 38);
     font-size: 1rem;
+    letter-spacing: 0.125rem;
+    text-shadow: 1px 1px 3px rgb(131, 184, 149);
 }
 
 .recipes>h2 {
     color: rgb(126, 86, 86);
+    text-shadow: 1px 1px 3px rgb(226, 145, 125);
 }
 
 .recipes>ul {
     color: darkslategray;
     line-height: 1.75rem;
+    letter-spacing: 0.125rem;
+    text-shadow: 1px 1px 3px rgb(110, 122, 114);
 }
 
 
@@ -149,18 +155,22 @@ main {
     position: relative;
     margin-top: 3rem;
     font-size: 1.5rem;
-    ;
+    text-shadow: 1px 1px 3px rgb(110, 122, 114);
+    text-align: center;
+    background-color: rgb(188, 218, 198);
 }
 
 #register-form {
     color: wheat;
     background-color: rgba(131, 123, 123, 0.6);
     padding: 50px;
+    font-size: 1.25rem;
 }
 
 .text-input {
     color: brown;
     background-color: #e5f2f3;
+    font-size: 1.5rem;
 }
 
 .radio-buttons {
@@ -192,7 +202,8 @@ main {
 @media screen and (min-width:330px) {
 
     #address-text {
-        margin-top: 200px;
+        margin-left: 1rem;
+        margin-top: 5rem;
     }
 
     .maindish-image {
@@ -238,9 +249,10 @@ main {
         font-size: 3rem;
         line-height: 4rem;
         margin: 0 0.5rem;
+        text-shadow: 1px 1px 3px rgb(27, 58, 38);
     }
 
-    main{
+    main {
         margin-top: 80px;
     }
 
