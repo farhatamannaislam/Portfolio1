@@ -29,8 +29,42 @@
             </ul>
         </nav>
     </header>
-
-    <main>Main Content</main>
+ <!-- Main content -->
+ <main>
+    <section id="signup">
+        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+            <h2><i class="fa-solid fa-utensils"></i> Join Us!</h2>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first_name" id="first-name" class="text-input" required>
+            <br>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last_name" id="last-name" class="text-input" required>
+            <br>
+            <label for="email-address">Email Address</label>
+            <input type="email" name="email_address" id="email-address" class="text-input" required>
+            <br>
+            <div class="radio-buttons">
+                <div>
+                    <label for="main-dish">Main Dish</label>
+                    <input type="radio" name="learning_preference" id="maindish" value="maindish" required checked>
+                </div>
+                <div>
+                    <label for="dessert">Dessert</label>
+                    <input type="radio" name="learning_preference" id="dessert" value="dessert" required>
+                </div>
+                <div>
+                    <label for="snacks">Snacks</label>
+                    <input type="radio" name="learning_preference" id="snacks" value="snacks" required>
+                </div>
+                <div>
+                    <label for="both">All</label>
+                    <input type="radio" name="learning_preference" id="all" value="all" required>
+                </div>
+            </div>
+            <button type="submit" class="join-button">Join Us!</button>
+        </form>
+    </section>
+</main>
     <!-- Footer -->
     <footer>
         <ul id="social-networks">

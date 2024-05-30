@@ -123,14 +123,30 @@ main {
     color: darkslategray;
 }
 
-    .recipes>h2{
-    color:brown;
-    }
-    
-    .recipes>ul{
-    color:darkslategray;
+.recipes>h2 {
+    color: brown;
+}
+
+.recipes>ul {
+    color: darkslategray;
     line-height: 30px;
-    }
+}
+
+#register {
+    position: relative;
+}
+
+#register-form {
+    color: wheat;
+    background-color: rgba(131, 123, 123, 0.6);
+    padding: 50px;
+}
+
+.text-input {
+    color: brown;
+    background-color: #e5f2f3;
+}
+
 
 /*Footer*/
 #social-networks {
@@ -203,10 +219,23 @@ main {
         margin-left: 20px;
         font-size: 20px;
         margin-top: 20px;
-    
+
     }
 
-    #social-networks{
+        /* Form */
+        #register {
+            background-position: right;
+            position: relative;
+        }
+    
+        #register-form {
+            max-width: 400px;
+            position: absolute;
+            left: 10%;
+            top: 150px;
+        }
+
+    #social-networks {
         width: 100%;
     }
 }
@@ -218,15 +247,15 @@ main {
         margin-top: 200px;
     }
 
-    .maindish-image{
+    .maindish-image {
         width: 50%;
     }
 
-    .dessert-image{
+    .dessert-image {
         width: 50%;
     }
 
-    .snack-image{
+    .snack-image {
         width: 50%;
     }
 }
