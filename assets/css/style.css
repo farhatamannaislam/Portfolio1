@@ -258,4 +258,9 @@ main {
     .snack-image {
         width: 50%;
     }
+
+    body{
+        display: 100%;
+    }
+
 }
