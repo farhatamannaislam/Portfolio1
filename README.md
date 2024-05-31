@@ -14,3 +14,11 @@ The live link can be found here - [Best Chef](https://farhatamanna-portfolio1-bo
 * To enable the user to locate the course and allow the user to register for the course.
 
 
+# Design
+------------------------------------------------------------------------------------------------------------------------------------------------
+## Imagery
+The imagery used in this website is very important for the user to get a basic idea about the course. The food pictures give the user a clear idea 
+about what is taught. The color of the website is very vibrant.
+
+## Fonts 
+The Rubik font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). Sans Serif is used as backup font.
