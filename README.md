@@ -29,7 +29,7 @@ Wireframes are produced using Balsamiq.
 
 <details>
   <summary>Desktop Wireframe</summary>
-![DesktopHome](https://github.com/farhatamannaislam/Portfolio1/assets/170868767/f554a550-85b0-4315-b313-1d199dc68626)
+<img src="docs/Wireframes/DesktopHome.png" alt="DesktopHomeWireframe">
 </details>
 
 
