@@ -1,7 +1,8 @@
-Best Chef Cooking Class
-Best Chef Cooking Class is a great lesson for beginner and experienced Cooks. This wensite is made to have a good idea about the cooking lessons.
+Best Chef
+Best Chef is a Website for a cooking course that gives brief overview of its content.
 
-Taking these cooking classes will make speople confident about their cooking skill. Which they can apply in Personal and Professional Life. Interested 
-learners will get the Contact Information and Registration form in this website.
+Users of this website can find about more about its teaching modules, basic recipes that are taught, some example recipe pictures
+and a Registration for interested users who can join the course as well as the address where the course happens.
 
+The live link can be found here - [Best Chef](https://8000-farhatamanna-portfolio1-bo6ikjoxddm.ws-eu114.gitpod.io/)
 

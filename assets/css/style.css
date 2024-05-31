@@ -86,7 +86,7 @@ nav {
 
 /*Main content*/
 main {
-    background-color: none;
+    background-color: white;
     /* Make main element to push footer down*/
     flex: 1 0 auto;
     margin-top: 40px;
