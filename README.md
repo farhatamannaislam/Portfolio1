@@ -27,9 +27,9 @@ The Rubik font is the main font used throughout the whole website. This font was
 
 Wireframes are produced using Balsamiq.
 
-<details>
-  <summary>Desktop Wireframe</summary>
-<img src="docs/Wireframes/DesktopHome.png" alt="DesktopHomeWireframe">
-</details>
+    <details>
+    <summary>Desktop Wireframe</summary>
+    <IMG src="Docs/Wireframe/DesktopHome.png...."  alt="image.png"/>
+    </details>
 
 
