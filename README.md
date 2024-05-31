@@ -29,9 +29,7 @@ Wireframes are produced using Balsamiq.
 
 <details>
   <summary>Desktop Wireframe</summary>
-![DesktopHome](https://github.com/farhatamannaislam/Portfolio1/assets/170868767/7e8e3cf2-2971-42c6-b019-d93cea316d1a)
-![DesktopOurClass](https://github.com/farhatamannaislam/Portfolio1/assets/170868767/f7b7e180-74b1-48f0-b6bf-6685412a4e11)
-![DesktopRegister](https://github.com/farhatamannaislam/Portfolio1/assets/170868767/a34f3aff-79c6-43b3-8a1b-5335f7820c6e)
+![DesktopHome](https://github.com/farhatamannaislam/Portfolio1/assets/170868767/f554a550-85b0-4315-b313-1d199dc68626)
 </details>
 
 
