@@ -1,4 +1,5 @@
 # Best Chef
+
 Best Chef is a Website for a cooking course that gives brief overview of its content.
 
 Users of this website can find about more about its teaching modules, basic recipes that are taught, some example recipe pictures
@@ -92,12 +93,14 @@ Wireframes are produced using Balsamiq.
 
 
 # Home Section
+
 * It contains a Hero image showing a beautiful cooking photo and a text overlay with the website headline.
 * It contains a reason section about why the user will choose this course.
 
 <img src="docs/readmeimages/homescreenshot.png" alt="Website Home">
 
 # Address Section
+
 * Under the Home Section there is address section so that user knows how to reach the course.
 
 <img src="docs/readmeimages/address.png" alt="Address">
@@ -109,7 +112,15 @@ a relevant sample image.
 
 <img src="docs/readmeimages/ourclasses-screenshot.png" alt="Our Classes">
 
+# Register Page
 
+* It contains an engaging message for the user to register the course (first name, last name, email, choose course option via the contact form).
 
+<img src="docs/readmeimages/registerscreenshot.png" alt="Our Classes">
 
+# Website Footer
+
+* It contains links to social media platforms.
+
+<img src="docs/readmeimages/footerscreenshot.png" alt="Our Classes">
 
