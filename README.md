@@ -6,7 +6,7 @@ and a Registration for interested users who can join the course as well as the a
 
 The live link can be found here - [Best Chef](https://farhatamanna-portfolio1-bo6ikjoxddm.ws-eu114.gitpod.io/)
 
-![Screenshot from 2024-05-31 12-50-32](https://github.com/farhatamannaislam/Portfolio1/assets/170868767/77e656d8-56c0-4b55-a062-25ef264e8974)
+<img src="docs/readmeimages/screenshotamiresponsive.png" alt="ScreenShot Am I responsive">
 
 # Overview
 * This website is designed as a three-page website with contents such as Home, Our Classes and Register.
