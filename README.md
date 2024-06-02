@@ -143,3 +143,16 @@ a relevant sample image.
 <img src="assets/images/lighthouse-home.png" alt="LightHouse Result Home">
 <img src="assets/images/lighthouse-ourclasses.png" alt="LightHouse Result Our Classes">
 <img src="assets/images/lighthouse-register.png" alt="LightHouse Result Register">
+
+# Form Testing
+
+* The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
+
+# Links Testing
+
+* All navigation links were tested manually to ensure the user is directed to the correct section of the website.
+* Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab.
+
+# Browser Testing
+
+* The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
