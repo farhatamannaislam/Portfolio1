@@ -31,9 +31,7 @@ Wireframes are produced using Balsamiq.
 
 <summary>Desktop Wireframe</summary>
 
-<img src="Docs/Wireframe/DesktopHome.png" alt="Desktop Wireframe Home" >
-<img src="Docs/Wireframe/DesktopOurClass.png" alt="Desktop Wireframe Our Class" >
-<img src="Docs/Wireframe/DesktopRegister.png" alt="Desktop Wireframe Register" >
+<img src="Docs/Wireframe/DesktopHome.png" alt="Desktop Wireframe Home">
 
 </details>
 
