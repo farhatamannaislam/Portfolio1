@@ -156,3 +156,12 @@ a relevant sample image.
 # Browser Testing
 
 * The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
+
+# Device Testing
+
+* The website was viewed on a variety of devices such as Desktop, Laptop, Tablets and Mobiles  to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
+
+* Following Websites are used to show responsiveness.
+
+    [Responsitor](http://www.responsinator.com/?url=https%3A%2F%2Ffarhatamannaislam.github.io%2FPortfolio1%2F)
+    [Am I Responsive](https://ui.dev/amiresponsive?url=https://farhatamannaislam.github.io/Portfolio1/)
