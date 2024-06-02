@@ -205,7 +205,7 @@ The live link can be found here - [Best Chef](https://farhatamannaislam.github.i
 
 All images sourced from the below website with thanks to the below amazing photographers.
 
-* [Pexels] (https://www.pexels.com/)
+* [Pexels](https://www.pexels.com/)
 
 ## Resources
 
