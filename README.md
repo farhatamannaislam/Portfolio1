@@ -32,7 +32,7 @@ Wireframes are produced using Balsamiq.
 
 <summary>Desktop Wireframe</summary>
 
-<img src="docs/Wireframe/DesktopHome.png" alt="Desktop Wireframe Home">
+<img src="docs/wireframe/DesktopHome.png" alt="Desktop Wireframe Home">
 
 </details>
 
@@ -40,7 +40,7 @@ Wireframes are produced using Balsamiq.
 
 <summary>Desktop Wireframe</summary>
 
-<img src="docs/Wireframe/DesktopOurClass.png" alt="Desktop Wireframe Our Class">
+<img src="docs/wireframe/DesktopOurClass.png" alt="Desktop Wireframe Our Class">
 
 </details>
 
@@ -48,7 +48,7 @@ Wireframes are produced using Balsamiq.
 
 <summary>Desktop Wireframe</summary>
 
-<img src="docs/Wireframe/DesktopRegister.png" alt="Desktop Wireframe Register">
+<img src="docs/wireframe/DesktopRegister.png" alt="Desktop Wireframe Register">
 
 
 </details>
@@ -56,7 +56,7 @@ Wireframes are produced using Balsamiq.
 <details>
 <summary>Mobile Wireframe</summary>
 
-<img src="docs/Wireframe/Mobile_Home.png" alt="Mobile Wireframe Home">
+<img src="docs/wireframe/Mobile_Home.png" alt="Mobile Wireframe Home">
 
 
 </details>
@@ -64,7 +64,7 @@ Wireframes are produced using Balsamiq.
 <details>
 <summary>Mobile Wireframe</summary>
 
-<img src="docs/Wireframe/Mobile_Ourclass.png" alt="Mobile Wireframe Our Class">
+<img src="docs/wireframe/Mobile_Ourclass.png" alt="Mobile Wireframe Our Class">
 
 
 </details>
@@ -72,7 +72,7 @@ Wireframes are produced using Balsamiq.
 <details>
 <summary>Mobile Wireframe</summary>
 
-<img src="docs/Wireframe/Mobile_Register.png" alt="Mobile Wireframe Register">
+<img src="docs/wireframe/Mobile_Register.png" alt="Mobile Wireframe Register">
 
 
 </details>
