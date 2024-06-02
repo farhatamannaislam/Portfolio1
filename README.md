@@ -97,6 +97,18 @@ Wireframes are produced using Balsamiq.
 
 <img src="docs/readmeimages/homescreenshot.png" alt="Website Home">
 
+# Address Section
+* Under the Home Section there is address section so that user knows how to reach the course.
+
+<img src="docs/readmeimages/address.png" alt="Address">
+
+# Our Classes Page
+
+* In this page the user finds information about various sections of recipes that are taught in the classs along with
+a relevant sample image.
+
+<img src="docs/readmeimages/ourclasses-screenshot.png" alt="Our Classes">
+
 
 
 
