@@ -179,13 +179,15 @@ a relevant sample image.
 
 # Frameworks - Libraries - Programs Used
 
-* [Am I Responsive] (https://ui.dev/amiresponsive), [Responsitor] (http://www.responsinator.com/)  Used to verify responsiveness of website on different devices.
+* [Am I Responsive](https://ui.dev/amiresponsive) Used to verify responsiveness of website on different devices.
+* [Responsitor] (http://www.responsinator.com/) Used to verify responsiveness of website on different devices.
 * [Balsamiq](https://balsamiq.com/) Used to create Wireframes.
 * [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) Used for overall development (debug, analysis, performance test, responsiveness).
 * [Font Awesome](https://fontawesome.com/) Used for Social Media icons in footer.
 * [GitHub](https://github.com/) Used for version control and hosting.
 * [Google Fonts](https://fonts.google.com/) Used to import and alter fonts on the page.
-* [TinyPNG](https://tinypng.com/), [Convertio] (https://convertio.co/) Used to optimize the images for web.
+* [TinyPNG](https://tinypng.com/) Used to optimize the images for web.
+* [Convertio] (https://convertio.co/) Used to optimize the images for web.
 * [Flaticon](https://www.flaticon.com/) Used to get the icon for the website.
 * [W3C](https://www.w3.org/) Used for HTML & CSS Validation.
 
