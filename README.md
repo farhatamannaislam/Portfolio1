@@ -110,7 +110,8 @@ Wireframes are produced using Balsamiq.
 * In this page the user finds information about various sections of recipes that are taught in the classs along with
 a relevant sample image.
 
-<img src="docs/readmeimages/ourclasses-screenshot.png" alt="Our Classes">
+<img src="docs/readmeimages/ourclassesssection.png" alt="Our Classes Section">
+<img src="docs/readmeimages/ourclassescontent.png" alt="Our Classes Content">
 
 # Register Page
 
