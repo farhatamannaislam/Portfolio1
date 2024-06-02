@@ -73,6 +73,22 @@ Wireframes are produced using Balsamiq.
 
 </details>
 
+# Menu Navigation
+
+* It is located at the top of the website.
+* It has a fixed position at the top so that users have access to the menu at all times when scrolling through the content.
+
+<img src="docs/readmeimages/navweb.png" alt="Navigation Website">
+
+* On small screens, when the navigation links do not fit in a single row, the menu transforms into a "hamburger" menu.
+
+<img src="docs/readmeimages/navmobile.png" alt="Navigation Mobile">
+
+* Once the "hamburger" icon is clicked, the menu expands to make navigation links visible to the user.
+
+<img src="docs/readmeimages/navexpanded.png" alt="Navigation Mobile with Hamburger Icon Exteded">
+
+
 
 
 
