@@ -125,3 +125,16 @@ a relevant sample image.
 
 <img src="docs/readmeimages/footerscreenshot.png" alt="Our Classes">
 
+# Testing
+
+## Validator Testing
+
+* No errors were returned when passing through the official W3C Markup Validator
+
+[W3C Validator Home](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-farhatamanna-portfolio1-bo6ikjoxddm.ws-eu114.gitpod.io%2Findex.html)
+[W3C Validator Our Classes](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-farhatamanna-portfolio1-bo6ikjoxddm.ws-eu114.gitpod.io%2Fourclasses.html)
+[W3C Validator Register](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-farhatamanna-portfolio1-bo6ikjoxddm.ws-eu114.gitpod.io%2Fregister.html)
+
+* No errors were found when passing through the official W3C CSS Validator
+
+[W3C validor CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-farhatamanna-portfolio1-bo6ikjoxddm.ws-eu114.gitpod.io%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
