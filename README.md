@@ -191,5 +191,30 @@ a relevant sample image.
 * [Flaticon](https://www.flaticon.com/) Used to get the icon for the website.
 * [W3C](https://www.w3.org/) Used for HTML & CSS Validation.
 
+# Deployment
 
+* In the Github repository, I navigated to Settings tab.
+* From the source section drop-down menu, I selected the main branch and Save.
+* A few moments later, the page was automatically refreshed and the link to the website was displayed.
+
+The live link can be found here - [Best Chef](https://farhatamannaislam.github.io/Portfolio1/index.html)
+
+# Credits
+
+## Media
+
+All images sourced from the below website with thanks to the below amazing photographers.
+
+* [Pexels] (https://www.pexels.com/)
+
+## Resources
+
+* [StackOverflow](https://stackoverflow.com/)
+* [W3Schools](https://www.w3schools.com/)
+* [Love-Running Project](https://github.com/farhatamannaislam/love-running)
+
+# Acknowledgments
+
+* My mentor Antonio Rodriguez for his valueable support and advice.
+* Code Institute Slack community and tutors for their helpful responses and feedback.
 
