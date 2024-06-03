@@ -103,16 +103,26 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107, .85);
     font-size: 1.5rem;
     position: absolute;
-    width: 80%;
+    width: 50%;
+    margin-left: 25%;
+    top:40%;
     padding-left: 10px;
     padding-top: 10px;
+    text-align: center;
 }
 
 #cover-text>p {
     color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#reasonsforus>h2{
+    text-align: center;
+    padding: 30px;
 }
 
 #reasons {
@@ -124,10 +134,13 @@ main {
     margin-left: 1rem;
     margin-top: 1rem;
     text-shadow: 1px 1px 3px rgb(139, 184, 155);
+    text-align: center;
+    padding: 15px;
 }
 
 #reasons>ul {
     list-style-type: none;
+    line-height: 30px;
 
 }
 
@@ -136,6 +149,9 @@ main {
     font-size: 1rem;
     letter-spacing: 0.125rem;
     text-shadow: 1px 1px 3px rgb(131, 184, 149);
+    text-align: center;
+    margin-inline: 20px;
+    margin-bottom: 40px;
 }
 
 /* Our Classes section */
@@ -149,6 +165,29 @@ main {
     line-height: 1.75rem;
     letter-spacing: 0.125rem;
     text-shadow: 1px 1px 3px rgb(110, 122, 114);
+}
+
+.recipe h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.recipe img {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+
+}
+
+.recipe ul {
+
+    padding-left: 45px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.recipe li {
+    margin-top: 12px;
 }
 
 /* Register section */
@@ -172,6 +211,8 @@ main {
     color: brown;
     background-color: #e5f2f3;
     font-size: 1.5rem;
+    margin: 5px 0 20px 0;
+    padding: 0.25rem;
 }
 
 .radio-buttons {
@@ -289,6 +330,12 @@ main {
 
     #register {
         font-size: 1rem;
+    }
+
+    .recipes {
+
+        display: flex;
+
     }
 
 }
