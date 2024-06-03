@@ -143,9 +143,9 @@ a relevant sample image.
     [W3C validor CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffarhatamannaislam.github.io%2FPortfolio1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 * The site achieved a Lighthouse accessibility score of 94% to 100% which confirms that the colours and fonts chosen are easy to read and accessible.
-<img src="assets/images/lighthouse-home.png" alt="LightHouse Result Home">
-<img src="assets/images/lighthouse-ourclasses.png" alt="LightHouse Result Our Classes">
-<img src="assets/images/lighthouse-register.png" alt="LightHouse Result Register">
+<img src="docs/readmeimages/lighthouse-home.png" alt="LightHouse Result Home">
+<img src="docs/readmeimages/lighthouse-ourclasses.png" alt="LightHouse Result Our Classes">
+<img src="docs/readmeimages/lighthouse-register.png" alt="LightHouse Result Register">
 
 # Form Testing
 
