@@ -109,7 +109,6 @@ main {
     width: 50%;
     margin-left: 25%;
     top:40%;
-    padding-left: 10px;
     padding-top: 10px;
     text-align: center;
 }
@@ -142,6 +141,10 @@ main {
     list-style-type: none;
     line-height: 30px;
 
+}
+
+#reasons ul li{
+    padding-top: 10px;
 }
 
 #address-text {
