@@ -201,6 +201,7 @@ main {
     text-shadow: 1px 1px 3px rgb(110, 122, 114);
     text-align: center;
     background-color: rgb(188, 218, 198);
+    padding: 20px;
 }
 
 #register-form {
