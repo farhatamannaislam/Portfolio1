@@ -198,7 +198,7 @@ a relevant sample image.
 
 * In the Github repository, I navigated to Settings tab.
 * From the source section drop-down menu, I selected the main branch and Save.
-* A few moments later, the page was automatically refreshed and the link to the website was displayed.
+* A few moments later, the page was automatically refreshed and the link to the website was displayed on the right side of the page.
 
 The live link can be found here - [Best Chef](https://farhatamannaislam.github.io/Portfolio1/index.html)
 
