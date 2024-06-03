@@ -99,14 +99,9 @@ Wireframes are produced using Balsamiq.
 
 * It contains a Hero image showing a beautiful cooking photo and a text overlay with the website headline.
 * It contains a reason section about why the user will choose this course.
+* It contains the course address.
 
 <img src="docs/readmeimages/homescreenshot.png" alt="Website Home">
-
-# Address Section
-
-* Under the Home Section there is address section so that user knows how to reach the course.
-
-<img src="docs/readmeimages/address.png" alt="Address">
 
 # Our Classes Page
 
