@@ -151,6 +151,7 @@ main {
     color: rgb(17, 71, 38);
     font-size: 1rem;
     letter-spacing: 0.125rem;
+    line-height: 2rem;
     text-shadow: 1px 1px 3px rgb(131, 184, 149);
     text-align: center;
     margin-inline: 20px;
