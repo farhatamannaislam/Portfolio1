@@ -30,7 +30,7 @@
     <main>
         <section>
             <div class="recipe-buttons-container">
-                <p>Explore our delicious categories! Click on a button below to view mouth-watering menu:</p>
+                <p>🍽️ Discover new flavors and expand your culinary skills! Click a category below to explore delicious recipes:</p>
             </div>
             <div class="recipe-buttons">
                 <button onclick="toggleRecipe('main-dish')">Main Dish</button>
@@ -39,59 +39,86 @@
             </div>
             
             <div class="recipes">
+                <!-- Main Dish Section -->
                 <div id="main-dish" class="recipe" style="display: none;">
                     <h2>Main Dish</h2>
-                    <img src="assets/images/maindish.webp" alt="Main Dish" class="maindish-image">
-                    <ul>
-                        <li>Steak</li>
-                        <li>Lasagne</li>
-                        <li>Meatloaf</li>
-                        <li>Gulash</li>
-                        <li>Fried rice (With Beef/Chicken/Vegetable/Shrimp)</li>
-                        <li>Chicken Fry, Barbeque Chicken, Peri Peri Chicken</li>
-                        <li>Pizza (Margherita, Tuna, Chicken, Beef, Sea Food, Vegetable)</li>
-                        <li>Curry (Chicken, Beef, Fish, Vegetable)</li>
-                        <li>Soup (American Style, Asian Style)</li>
-                        <li>Bread (Pita, Naan, Tortilla)</li>
+                    <p class="recipe-description">
+                        Indulge in rich flavors and hearty meals! Our main dishes range from classic steaks to comforting curries, bringing authentic taste to your table.
+                    </p>
+                    <div class="recipe-gallery">
+                        <img src="assets/images/maindish1.webp" alt="Grilled Steak" class="recipe-image">
+                        <img src="assets/images/maindish2.webp" alt="Chicken Curry" class="recipe-image">
+                        <img src="assets/images/maindish3.webp" alt="Vegetarian Pasta" class="recipe-image">
+                    </div>
+                    <ul class="recipe-list">
+                        <li>Juicy Grilled Steak</li>
+                        <li>Classic Lasagne</li>
+                        <li>Traditional Gulash</li>
+                        <li>Spicy Chicken Curry</li>
+                        <li>Homemade Pizza (Various Toppings)</li>
+                        <li>Fresh Mediterranean Salad</li>
+                        <li>Roastede Chicken/Duck</li>
+                        <li>Soft & Fluffy Bread (Pita, Naan, Tortilla)</li>
+                        <li>Spaghetti Bolognese</li>
+                        <li>Biryani Chicken, Beef, Vegg</li>
+                        <li>Pasta (Various recipes with salmon, cheese, tomato etc.)</li>
                     </ul>
                 </div>
-                
+    
+                <!-- Dessert Section -->
                 <div id="dessert" class="recipe" style="display: none;">
                     <h2>Desserts</h2>
-                    <img src="assets/images/dessert.webp" alt="Dessert" class="dessert-image">
-                    <ul>
-                        <li>Tiramisu (Chocolate, Strawberry)</li>
-                        <li>Cake (Chocolate, Vanilla, Mocha , Strawberry, Mango with Frosting)</li>
-                        <li>Mousse (Chocolate, Vanilla, Lemon, Strawberry)</li>
-                        <li>Panna cotta</li>
-                        <li>Macaron</li>
-                        <li>Bakalava</li>
-                        <li>Kunafa</li>
-                        <li>Spanish Flan</li>
-                        <li>Custard</li>
-                        <li>Basbousa</li>
+                    <p class="recipe-description">
+                        Satisfy your sweet tooth with our irresistible selection of desserts. From creamy cakes to delightful macarons, treat yourself today!
+                    </p>
+                    <div class="recipe-gallery">
+                        <img src="assets/images/dessert1.webp" alt="Tiramisu" class="recipe-image">
+                        <img src="assets/images/dessert2.webp" alt="Chocolate Cake" class="recipe-image">
+                        <img src="assets/images/dessert3.webp" alt="Macarons" class="recipe-image">
+                    </div>
+                    <ul class="recipe-list">
+                        <li>Classic Chocolate/Vanilla Mousse</li>
+                        <li>Strawberry/Chocolate Tiramisu</li>
+                        <li>Rich Mocha Cake, Mango Cake, Lemon Cake</li>
+                        <li>Moist Vanilla Cake, Chocolate Cake</li>
+                        <li>Fluffy Japanese Cheesecake, New York Cheesecake</li>
+                        <li>Caramelized Spanish Flan</li>
+                        <li>Traditional Baklava</li>
+                        <li>Fudgy Brownie</li>
+                        <li>Apple crumble</li>
+                        <li>Traditional Vanilla Custard</li>
                     </ul>
                 </div>
-                
+    
+                <!-- Snacks Section -->
                 <div id="snacks" class="recipe" style="display: none;">
                     <h2>Snacks</h2>
-                    <img src="assets/images/snack.webp" alt="Dessert" class="snack-image">
-                    <ul>
-                        <li>Spring Roll</li>
-                        <li>Dumpling</li>
-                        <li>Cheese Sticks</li>
-                        <li>Sandwich (Chicken, Beef, Egg, Tuna, Vegetable)</li>
-                        <li>Kebab Roll (Chicken, Beef, Vegetable)</li>
-                        <li>Nuggets (Chicken, Vegetable)</li>
+                    <p class="recipe-description">
+                        Need a quick bite? Our snack recipes will keep you energized throughout the day! Try crispy spring rolls, cheesy nuggets, and more.
+                    </p>
+                    <div class="recipe-gallery">
+                        <img src="assets/images/snack1.webp" alt="Spring Rolls" class="recipe-image">
+                        <img src="assets/images/snack2.webp" alt="Cheese Sticks" class="recipe-image">
+                        <img src="assets/images/snack3.webp" alt="French Fries" class="recipe-image">
+                    </div>
+                    <ul class="recipe-list">
+                        <li>Crunchy Spring Rolls</li>
+                        <li>Mozzarella Cheese Sticks</li>
+                        <li>Tasty Mini Tacos</li>
+                        <li>Crispy Fried Shrimp</li>
+                        <li>Seasoned French Fries</li>
                         <li>Potato Wedges</li>
-                        <li>French Fry</li>
-                        <li>Taco</li>
-                        <li>Fish Finger</li>
+                        <li>Loaded Chicken Wraps</li>
+                        <li>Club Sandwich</li>
+                        <li>Chocolate/Vanilla Donuts</li>
+                        <li>Asian Dumpling(Chicken, Beef, Vegg, Shrimp)</li>
+                        <li>Pretzel Crisps</li>
                     </ul>
                 </div>
             </div>
         </section>
     </main>
+    
     
     <script>
         function toggleRecipe(recipeId) {
