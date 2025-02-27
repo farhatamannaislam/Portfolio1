@@ -31,45 +31,59 @@
         </nav>
     </header>
  <!-- Main content -->
- <main>
+<!-- Main content -->
+<main>
     <section id="register">
         <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-            <h2><i class="fa-solid fa-utensils"></i> Join Us!</h2>
-            <label for="first-name">First Name</label>
-            <input type="text" name="first_name" id="first-name" class="text-input" required>
-            <br>
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last_name" id="last-name" class="text-input" required>
-            <br>
-            <label for="email-address">Email Address</label>
-            <input type="email" name="email_address" id="email-address" class="text-input" required>
-            <br>
-            <br>
+            <h2>🍽️ Join Our Cooking Class!</h2>
+            <p class="form-intro">
+                Sign up today and start your journey to becoming a master chef! 
+                Choose your learning preference and let's get cooking!
+            </p>
+
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" placeholder="Enter your first name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" placeholder="Enter your last name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" placeholder="Enter your email" required>
+            </div>
+
+            <h3>🍴 What do you want to learn?</h3>
             <div class="radio-buttons">
-                <div>
-                    <label for="maindish">Main Dish</label>
+                <div class="radio-option">
                     <input type="radio" name="learning_preference" id="maindish" value="maindish" required checked>
+                    <label for="maindish">Main Dish</label>
                 </div>
-                <br>
-                <div>
-                    <label for="dessert">Dessert</label>
+
+                <div class="radio-option">
                     <input type="radio" name="learning_preference" id="dessert" value="dessert" required>
+                    <label for="dessert">Dessert</label>
                 </div>
-                <br>
-                <div>
-                    <label for="snacks">Snacks</label>
+
+                <div class="radio-option">
                     <input type="radio" name="learning_preference" id="snacks" value="snacks" required>
+                    <label for="snacks">Snacks</label>
                 </div>
-                <br>
-                <div>
-                    <label for="all">All</label>
+
+                <div class="radio-option">
                     <input type="radio" name="learning_preference" id="all" value="all" required>
+                    <label for="all">All</label>
                 </div>
             </div>
-            <button type="submit" class="join-button">Join Us!</button>
+
+            <button type="submit" class="join-button">Get Started</button>
         </form>
     </section>
 </main>
+
     <!-- Footer -->
     <footer>
         <ul id="social-networks">
