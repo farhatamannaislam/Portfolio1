@@ -4,15 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Meta tags for search engines -->
     <meta name="description" content="A great place to improve your cooking skills">
     <meta name="keywords" content="cooking, class, classes, best, chefs">
-    <!-- Title -->
     <title>Best Chef Cooking Class</title>
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
-
 </head>
 
 <body>
@@ -33,31 +29,39 @@
 
     <main>
         <section>
+            <div class="recipe-buttons-container">
+                <p>Explore our delicious categories! Click on a button below to view mouth-watering menu:</p>
+            </div>
+            <div class="recipe-buttons">
+                <button onclick="toggleRecipe('main-dish')">Main Dish</button>
+                <button onclick="toggleRecipe('dessert')">Dessert</button>
+                <button onclick="toggleRecipe('snacks')">Snacks</button>
+            </div>
+            
             <div class="recipes">
-                <div class="recipe">
+                <div id="main-dish" class="recipe" style="display: none;">
                     <h2>Main Dish</h2>
                     <img src="assets/images/maindish.webp" alt="Main Dish" class="maindish-image">
-                    <br>
                     <ul>
                         <li>Steak</li>
                         <li>Lasagne</li>
                         <li>Meatloaf</li>
                         <li>Gulash</li>
                         <li>Fried rice (With Beef/Chicken/Vegetable/Shrimp)</li>
-                        <li>Chicken Fry, Barbeque Chicken,Peri Peri Chicken</li>
+                        <li>Chicken Fry, Barbeque Chicken, Peri Peri Chicken</li>
                         <li>Pizza (Margherita, Tuna, Chicken, Beef, Sea Food, Vegetable)</li>
                         <li>Curry (Chicken, Beef, Fish, Vegetable)</li>
                         <li>Soup (American Style, Asian Style)</li>
                         <li>Bread (Pita, Naan, Tortilla)</li>
                     </ul>
                 </div>
-                <div class="recipe">
+                
+                <div id="dessert" class="recipe" style="display: none;">
                     <h2>Desserts</h2>
                     <img src="assets/images/dessert.webp" alt="Dessert" class="dessert-image">
-                    <br>
                     <ul>
                         <li>Tiramisu (Chocolate, Strawberry)</li>
-                        <li>Cake (Chocolate, Vanilla, Mocha , Strawberry,Mango with Frosting)</li>
+                        <li>Cake (Chocolate, Vanilla, Mocha , Strawberry, Mango with Frosting)</li>
                         <li>Mousse (Chocolate, Vanilla, Lemon, Strawberry)</li>
                         <li>Panna cotta</li>
                         <li>Macaron</li>
@@ -68,16 +72,16 @@
                         <li>Basbousa</li>
                     </ul>
                 </div>
-                <div class="recipe">
+                
+                <div id="snacks" class="recipe" style="display: none;">
                     <h2>Snacks</h2>
                     <img src="assets/images/snack.webp" alt="Dessert" class="snack-image">
-                    <br>
                     <ul>
                         <li>Spring Roll</li>
                         <li>Dumpling</li>
                         <li>Cheese Sticks</li>
-                        <li>Sandwitch (Chicken, Beef, Egg, Tuna, Vegetable)</li>
-                        <li>Kebab Roll(Chicken, Beef, Vegetable)</li>
+                        <li>Sandwich (Chicken, Beef, Egg, Tuna, Vegetable)</li>
+                        <li>Kebab Roll (Chicken, Beef, Vegetable)</li>
                         <li>Nuggets (Chicken, Vegetable)</li>
                         <li>Potato Wedges</li>
                         <li>French Fry</li>
@@ -88,6 +92,20 @@
             </div>
         </section>
     </main>
+    
+    <script>
+        function toggleRecipe(recipeId) {
+            var recipes = document.querySelectorAll('.recipe');
+            recipes.forEach(recipe => {
+                if (recipe.id === recipeId) {
+                    recipe.style.display = recipe.style.display === "none" ? "block" : "none";
+                } else {
+                    recipe.style.display = "none";
+                }
+            });
+        }
+    </script>
+    
     <!-- Footer -->
     <footer>
         <ul id="social-networks">
@@ -108,7 +126,6 @@
     </footer>
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/dc1461ab12.js" crossorigin="anonymous"></script>
-
 </body>
-
 </html>
+
