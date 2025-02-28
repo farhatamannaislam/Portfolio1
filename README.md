@@ -1,13 +1,13 @@
 # Best Chef
 
-Best Chef is a Website for a cooking course that gives brief overview of its content. Test.
+Best Chef is a Website for a cooking course that gives brief overview of its content. 
 
 Users of this website can find about more about its teaching modules, basic recipes that are taught, some example recipe pictures
 and a Registration for interested users who can join the course as well as the address where the course happens.
 
 The live link can be found here - [Best Chef](https://farhatamannaislam.github.io/Portfolio1/)
 
-<img src="docs/readmeimages/screenshotamiresponsive.png" alt="ScreenShot Am I responsive">
+<img src="docs/readmeimages/responsive.png" alt="ScreenShot Am I responsive">
 
 # Overview
 * This website is designed as a three-page website with contents such as Home, Our Classes and Register.
@@ -81,6 +81,7 @@ Wireframes are produced using Balsamiq.
 
 * It is located at the top of the website.
 * It has a fixed position at the top so that users have access to the menu at all times when scrolling through the content.
+* On small screens, a "hamburger" menu is displayed for better usability. 
 
 <img src="docs/readmeimages/navweb.png" alt="Navigation Website">
 
@@ -97,30 +98,32 @@ Wireframes are produced using Balsamiq.
 
 # Home Section
 
-* It contains a Hero image showing a beautiful cooking photo and a text overlay with the website headline.
-* It contains a reason section about why the user will choose this course.
-* It contains the course address.
+* It contains a Hero image showing an engaging  cooking photo and a text overlay with the website headline.
+* Contains a section highlighting the reasons to choose this course.
+* Displays course location details and opening hours.
 
-<img src="docs/readmeimages/homescreenshot.png" alt="Website Home">
+<img src="docs/readmeimages/home.png" alt="Website Home">
 
 # Our Classes Page
 
-* In this page the user finds information about various sections of recipes that are taught in the classs along with
-a relevant sample image.
+* In this page the user finds information about various sections of recipes that are taught in the classs.
+* Includes relevant images for each section to enhance user engagement
 
-<img src="docs/readmeimages/ourclassescontent.png" alt="Our Classes Content">
+<img src="docs/readmeimages/classmenu.png" alt="Class menu">
+<img src="docs/readmeimages/classcontent.png" alt="Class content">
 
 # Register Page
 
-* It contains an engaging message for the user to register the course (first name, last name, email, choose course option via the contact form).
+* Encourages users to join the course.
+* Includes a form where users can enter their details and select their preferred learning category.
 
-<img src="docs/readmeimages/registerscreenshot.png" alt="Our Classes">
+<img src="docs/readmeimages/register.png" alt="Our Classes">
 
 # Website Footer
 
 * It contains links to social media platforms.
 
-<img src="docs/readmeimages/footerscreenshot.png" alt="Our Classes">
+<img src="docs/readmeimages/footer.png" alt="Our Classes">
 
 # Testing
 
@@ -136,7 +139,7 @@ a relevant sample image.
 
     [W3C validor CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffarhatamannaislam.github.io%2FPortfolio1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-* The site achieved a Lighthouse accessibility score of 94% to 100% which confirms that the colours and fonts chosen are easy to read and accessible.
+* The site achieved a Lighthouse accessibility score of 80% to 100% which confirms that the colours and fonts chosen are easy to read and accessible.
 <img src="docs/readmeimages/lighthouse-home.png" alt="LightHouse Result Home">
 <img src="docs/readmeimages/lighthouse-ourclasses.png" alt="LightHouse Result Our Classes">
 <img src="docs/readmeimages/lighthouse-register.png" alt="LightHouse Result Register">
